@@ -8,7 +8,7 @@ Lesson One - HTML and CSS (Structure and Beauty)
 
 ####HTML - The Dos and Do Nots
 
-Below are a list of things you should consider when defining your HTML pages.  
+Below are a few of the things you should consider when defining your HTML pages.  Accessibility is beyong the scope of this session.  However, I have listed a few things that are really helpful for screen readers below.
 
 - HTML should define your documents structure
 - HTML should provide your documents data
@@ -37,3 +37,10 @@ Below are a list of things you should consider when defining your HTML pages.
     - Images
         - Do use the alt attribute to describe the image
         - If nessecary, use longdesc to link to a text file with additional information
+        
+### Reference Sites
+
+- Amazing HTML and CSS reference site - http://www.csszengarden.com
+- W3 Web Content Accesibility Guidelines - http://www.w3.org/TR/WCAG10-HTML-TECHS
+- Fangs Screen Reader Emulator (FireFox Addon) - https://addons.mozilla.org/en-US/firefox/addon/fangs-screen-reader-emulator/
+- ChromeShades Screen Reader Eumlator (Chrome Extension) - http://google-axs-chrome.googlecode.com/svn/trunk/chromeshades_docs/chromeshades_help.html

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        <title>Good HTML Structure</title>
+        <meta name="description" content="Web Client Technologies: Lesson One - HTML and CSS (Structure and Beauty)">
+        <meta name="keywords" content="HTML,Structure,Web Client Technologies,CSS">
+        <meta name="author" content="Johnny Ezzell">
+        <link rel="stylesheet" media="screen" href="reset.css">
+        <link rel="stylesheet" media="screen" href="good.css">
+    </head>
+    <body>
+        <div id="header">
+            <ul id="navigation">
+                <li class="active"><a href="#overview">Overview</a></li>
+                <li><a href="#sign">Sign the Page</a></li>
+                <li><a href="#signers">Signers</a></li>
+            </ul>
+        </div>
+        <div id="page-container">
+            <div id="overview">
+                <h1>Overview</h1>
+                <p>This page should be a good example of how HTML is defined.</p>
+                <ul>
+                    <li>Id's are named by what they contain, not where they are</li>
+                    <li>There is no styling on the page at all.</li>
+                </ul>
+            </div>
+            <div id="sign">
+                <h1>Sign the Page</h1>
+                <form>
+                    <fieldset>
+                        <legend>Enter the information below</legend>
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" />
+                        </div>
+                        <div>
+                            <label for="email">Email Address</label>
+                            <input id="email" />
+                        </div>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="signers">
+                <h1>List of Signers</h1>
+                <table>
+                    <caption>List of Signers</caption>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                    </tr>
+                    <tr>
+                        <td>Jill</td>
+                        <td>Smith</td> 
+                        <td>johnny</td>
+                    </tr>
+                    <tr>
+                        <td>Eve</td>
+                        <td>Jackson</td> 
+                        <td>94</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="footer">
+            &copy; Johnny Ezzell 2014
+        </div>
+    </body>
+    <!-- Scripts should always be at the bottom unless otherwise required -->
+    <script src="../lib/jquery/jquery-2.1.1.min.js"></script>
+</html>
