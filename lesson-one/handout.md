@@ -25,17 +25,17 @@ Below are a few of the things you should consider when defining your HTML pages.
 - Do use *id* and *class* attributes to identify your elements appropriately 
 - Do **NOT** use the same id value more than once in a single page
 - Do define your HTML with accessibility in mind
-    - Do give you page a well written title
-    - Do use H1-H6 to describe documents headings for structure
+    - Do give your page a well written title
+    - Do use *H1*-*H6* to describe documents headings for structure
     - Tables
         - Do use the *caption* element to describe the table
-        - Do use the scope attribute of th to describe groups of columns
-        - Do use the headers attribute of the td to let the user know when header that cell belongs to
+        - Do use the *scope* attribute of th to describe groups of columns
+        - Do use the *headers* attribute of the td to let the user know when header that cell belongs to
     - Forms
-        - Do use fieldset and legend when creating forms
-        - Do use the label's for attribute to link the label to the input field
+        - Do use *fieldset* and *legend* when creating forms
+        - Do use the *for* attribute of the *label* to link the *label* to the *input*
     - Images
-        - Do use the alt attribute to describe the image
+        - Do use the *alt* attribute to describe the image
         
 ### Reference Sites
 
