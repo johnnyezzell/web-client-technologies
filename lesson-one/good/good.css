@@ -60,7 +60,7 @@ p {
     }
         #content #sub-content .section {
             background-color: #4eacfc;
-            padding: 13px;
+            padding: 30px;
             margin: 5px;
             border-color: #363636;
             border-width: 1px;
@@ -69,17 +69,21 @@ p {
             -moz-border-radius: 5px;
             -o-border-radius: 5px;
             border-radius: 5px;
+            -webkit-box-shadow: inset 0 0 130px #cccccc;
+            -moz-box-shadow: inset 0 0 130px #cccccc;
+            -o-box-shadow: inset 0 0 130px #cccccc;
+            box-shadow: inset 0 0 130px #cccccc;
         }
 
         #content #sub-content .section.half {
-            width: 555px;
+            width: 525px;
             min-height: 300px;
             display: inline-block;                
             vertical-align: top;
         }
 
         #content #sub-content .section.whole {
-            width: 1152px;
+            width: 1128px;
             display: block;
         }
 
