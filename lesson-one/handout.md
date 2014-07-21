@@ -28,7 +28,7 @@ Below are a few of the things you should consider when defining your HTML pages.
     - Do give you page a well written title
     - Do use H1-H6 to describe documents headings for structure
     - Tables
-        - Do use the <caption> element to describe the table
+        - Do use the **caption** element to describe the table
         - Do use the scope attribute of th to describe groups of columns
         - Do use the headers attribute of the td to let the user know when header that cell belongs to
     - Forms
