@@ -54,11 +54,11 @@ p {
         }
 
         header nav a:hover {
-            color: #ffffff;
+            color: #ff9300;
         }
 
         header nav a.active {
-            color: #ffffff;
+            color: #ff9300;
             cursor: default;
         }
 
@@ -85,10 +85,10 @@ p {
             -moz-border-radius: 5px;
             -o-border-radius: 5px;
             border-radius: 5px;
-            -webkit-box-shadow: inset 0 0 130px #cccccc;
-            -moz-box-shadow: inset 0 0 130px #cccccc;
-            -o-box-shadow: inset 0 0 130px #cccccc;
-            box-shadow: inset 0 0 130px #cccccc;
+            -webkit-box-shadow: inset 0 0 130px #245195;
+            -moz-box-shadow: inset 0 0 130px #245195;
+            -o-box-shadow: inset 0 0 130px #245195;
+            box-shadow: inset 0 0 130px #245195;
         }
 
         #content #sub-content .section.widget.half {
@@ -140,7 +140,7 @@ table {
     }
 
     table tr:hover {
-        background-color: #ffa700;
+        background-color: #ff9300;
         cursor: pointer;
     }
 
@@ -167,7 +167,7 @@ input[type=text] {
 }
 
     input[type=text]:hover, input[type=text]:focus {
-        border-color: #ffa700;
+        border-color: #ff9300;
     }
 
 footer {
