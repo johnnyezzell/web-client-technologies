@@ -5,7 +5,6 @@
         <meta name="description" content="Web Client Technologies: Lesson One - HTML and CSS (Structure and Beauty)">
         <meta name="keywords" content="HTML,Structure,Web Client Technologies,CSS">
         <meta name="author" content="Johnny Ezzell">
-        <link rel="stylesheet" media="screen" href="reset.css">
         <link rel="stylesheet" media="screen" href="good.css">
     </head>
     <body>
@@ -18,7 +17,7 @@
         </header>
         <div id="content">
             <div id="sub-content">
-                <div id="overview" class="section half">
+                <div id="overview" class="section widget half">
                     <h1>Overview</h1>
                     <p>This page should be a good example of how HTML is defined.</p>
                     <ul>
@@ -26,28 +25,28 @@
                         <li>There is no styling on the page at all.</li>
                     </ul>
                 </div>
-                <div id="sign" class="section half">
+                <div id="sign" class="section widget half">
                     <h1>Sign the Page</h1>
                     <form>
                         <fieldset>
                             <legend>Enter the information below</legend>
                             <div class="form-group">
                                 <label for="first-name">First Name</label>
-                                <input id="first-name" />
+                                <input type="text" id="first-name" />
                             </div>
                             <div class="form-group">
                                 <label for="last-name">Last Name</label>
-                                <input id="last-name" />
+                                <input type="text" id="last-name" />
                             </div>
                             <div>
                                 <label for="email">Email Address</label>
-                                <input id="email" />
+                                <input type="text" id="email" />
                             </div>
                             <button type="submit">Submit</button>
                         </fieldset>
                     </form>
                 </div>
-                <div id="signers" class="section whole">
+                <div id="signers" class="section widget full">
                     <h1>List of Signers</h1>
                     <table>
                         <caption>List of Signers</caption>
@@ -59,12 +58,12 @@
                         <tr>
                             <td>Jill</td>
                             <td>Smith</td> 
-                            <td>johnny</td>
+                            <td>johnny.ezzell@credit-suisse.com</td>
                         </tr>
                         <tr>
                             <td>Eve</td>
                             <td>Jackson</td> 
-                            <td>94</td>
+                            <td>eve.jackson@credit-suisse.com</td>
                         </tr>
                     </table>
                 </div>

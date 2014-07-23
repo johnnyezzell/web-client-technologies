@@ -1,4 +1,6 @@
 html, body {
+    margin: 0;
+    padding: 0;
     background-color: #363636;
     font-family: arial, helvetica;
     line-height: 20px;
@@ -6,9 +8,22 @@ html, body {
     height: 100%;
 }
 
+fieldset {
+    border: none;
+}
+
+    fieldset input[type='text'] {
+        width: 200px;
+        margin-bottom: 13px;
+    }
+
+legend {
+    display: none;
+}
+
 h1 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #000000;
     font-family: arial;
 }
@@ -75,14 +90,14 @@ p {
             box-shadow: inset 0 0 130px #cccccc;
         }
 
-        #content #sub-content .section.half {
+        #content #sub-content .section.widget.half {
             width: 525px;
             min-height: 300px;
             display: inline-block;                
             vertical-align: top;
         }
 
-        #content #sub-content .section.whole {
+        #content #sub-content .section.widget.full {
             width: 1128px;
             display: block;
         }
@@ -100,15 +115,54 @@ p {
                 padding-left: 10px;
             }
 
+table {
+    width: 100%;
+    background-color: #363636;  
+    border: 1px solid #ffffff;
+    border-spacing: 0;
+}
+
+    table caption {
+        visibility: collapse;
+    }
+
+    table th, table td {
+        height: 25px;
+        color: white;
+        padding: 10px;
+        text-align: left;
+        vertical-align: middle;  
+        border: 1px solid #ffffff;
+    }
+
+    table tr:hover {
+        background-color: #666666;
+        cursor: pointer;
+    }
+
 button:hover {
    cursor: pointer;
+}
+
+input[type=text] {
+    display: block;
+    padding: 5px;
+    border: 4px solid #F1B720;
+    border-radius: 5px;
+    color: #333;
+    font-size: 12px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-text-shadow: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
 }
 
 footer {
     color: white;
     padding: 20px 0 20px 20px;
     font-family: arial;
-    webkit-text-shadow: 2px 2px #000000;    
-    moz-text-shadow: 2px 2px #000000;    
+    -webkit-text-shadow: 2px 2px #000000;    
+    -moz-text-shadow: 2px 2px #000000;    
+    -o-text-shadow: 2px 2px #000000;        
     text-shadow: 2px 2px #000000;
 }
