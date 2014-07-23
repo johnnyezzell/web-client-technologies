@@ -6,7 +6,7 @@ html, body {
     line-height: 20px;
     color: #444444;
     height: 100%;
-    text-shadow: 0 0 1px #ffffff;
+    text-shadow: 0 0 0.5 #ffffff;
 }
 
 fieldset {
