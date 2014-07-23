@@ -136,7 +136,7 @@ table {
     }
 
     table tr:hover {
-        background-color: #666666;
+        background-color: #ffa700;
         cursor: pointer;
     }
 
@@ -147,7 +147,7 @@ button:hover {
 input[type=text] {
     display: block;
     padding: 5px;
-    border: 4px solid #F1B720;
+    border: 4px solid #363636;
     border-radius: 5px;
     color: #333;
     font-size: 12px;
@@ -156,6 +156,10 @@ input[type=text] {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+
+    input[type=text]:hover, input[type=text]:focus {
+        border-color: #ffa700;
+    }
 
 footer {
     color: white;
