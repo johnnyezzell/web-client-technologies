@@ -2,10 +2,11 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #363636;
-    font-family: arial, helvetica;
+    font-family: sans-serif;
     line-height: 20px;
     color: #444444;
     height: 100%;
+    text-shadow: 0 0 1px #ffffff;
 }
 
 fieldset {
@@ -133,11 +134,19 @@ table {
         text-align: left;
         vertical-align: middle;  
         border: 1px solid #ffffff;
+        font-weight: normal;
+        font-size: 16px;
+        letter-spacing: 2;
     }
 
     table tr:hover {
         background-color: #ffa700;
         cursor: pointer;
+    }
+
+    table th {
+        background-color: #777777;
+        cursor: default;
     }
 
 button:hover {
