@@ -76,7 +76,7 @@ p {
 }
 
     #content #sub-content {
-        width: 1200px;
+        width: 1000px;
         height: auto;
         margin: 0 auto;
     }
@@ -98,14 +98,14 @@ p {
         }
 
         #content #sub-content .section.widget.half {
-            width: 525px;
+            width: 42%;
             min-height: 350px;
             display: inline-block;                
             vertical-align: top;
         }
 
         #content #sub-content .section.widget.full {
-            width: 1128px;
+            width: 92%;
             display: block;
         }
 
