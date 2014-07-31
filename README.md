@@ -20,4 +20,7 @@ Lessons
 ### Lesson One - HTML and CSS (Structure and Beauty)
 In this lesson we'll discuss how your HTML and CSS should be defined.  We'll learn to avoid some common mistakes that make it difficult to maintain your web application.  We'll also learn about LESS, one of a handful of CSS transpilers that gives us cleaner and more efficient way to deal with our CSS.
 
+### Lesson Two - JavaScript Basics
+In this lesson we'll discuss the basics of JavaScript in detail.  We'll also cover some intermidiate JavaScript topics.  The goal of this lesson is to help you write more maintainable and efficient JavaScript.
+
 
