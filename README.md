@@ -23,4 +23,5 @@ In this lesson we'll discuss how your HTML and CSS should be defined.  We'll lea
 ### Lesson Two - JavaScript Basics
 In this lesson we'll discuss the basics of JavaScript in detail.  We'll also cover some intermidiate JavaScript topics.  The goal of this lesson is to help you write more maintainable and efficient JavaScript.
 
-
+### Lesson Three - jQuery Basics
+In this lesson we'll discuss the most popular JavaScript library ever made.  We'll look at why jQuery has been so successful and how we can benifit from it.  We'll create our own jQuery plugin in the process.

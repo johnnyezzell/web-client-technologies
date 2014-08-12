@@ -12,8 +12,8 @@ var Closure = (function() {
     return function() {
         this.addToList = function(item) {
             that.privateAddToList(item);   
-        }
-    }
+        };
+    };
     
 }());
 

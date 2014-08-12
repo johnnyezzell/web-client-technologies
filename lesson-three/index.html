@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lte IE 7]> 
+<html class="ie7">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie8"> 
+<![endif]-->
+<!--[if IE 9]>     
+<html class="ie9"> 
+<![endif]-->
+<!--[if !IE]><!--> 
+<html>            
+<!--<![endif]-->  
+    <head>
+        <title>Good HTML Structure</title>
+        <meta name="description" content="Web Client Technologies: Lesson One - HTML and CSS (Structure and Beauty)">
+        <meta name="keywords" content="HTML,Structure,Web Client Technologies,CSS">
+        <meta name="author" content="Johnny Ezzell">
+        <link rel="stylesheet" media="screen" href="site.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a class="active" href="#">Home</a>
+                <a href="#">Contact Us</a>
+                <a href="#">About</a>
+            </nav>
+        </header>
+        <div id="content">
+            <div id="sub-content">
+                <div id="overview" class="section widget half">
+                    <h1>Overview</h1>
+                    <p>This page should be a good example of how HTML is defined.</p>
+                    <ul>
+                        <li>Id's are named by what they contain, not where they are</li>
+                        <li>There is no styling on the page at all.</li>
+                    </ul>
+                </div>
+                <div id="sign" class="section widget half">
+                    <h1>Sign the Page</h1>
+                    <form>
+                        <fieldset>
+                            <legend>Enter the information below</legend>
+                            <div class="form-group">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" />
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" />
+                            </div>
+                            <div>
+                                <label for="email">Email Address</label>
+                                <input type="text" id="email" />
+                            </div>
+                            <button type="submit">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div id="signers" class="section widget full">
+                    <h1>List of Signers</h1>
+                    <table>
+                        <caption>List of Signers</caption>
+                        <thead>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John</td>
+                                <td>Smith</td> 
+                                <td>john.smith@yahoo.com</td>
+                            </tr>
+                            <tr>
+                                <td>Jane</td>
+                                <td>Smith</td> 
+                                <td>jane.smith@yahoo.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+            &copy; Johnny Ezzell 2014
+        </footer>
+    </body>
+    <!-- Scripts should always be at the bottom unless otherwise required -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jQuery.dragAndDropFiles.js"></script>
+    <script src="main.js"></script>
+</html>

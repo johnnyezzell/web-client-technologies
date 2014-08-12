@@ -52,7 +52,7 @@ JavaScript is a functional language.  It's also designed to operate asynchronous
 - Functions are used to create objects
 - Callback functions are used A LOT and can lead to callback hell
 - Promises can help with callback hell, however, we'll leave promises for when we discuss jQuery next
-- The **this** keyword is always at the function scope
+- The **this** keyword is always at the function scope, except when it's **not**.  It depends on how the function is called.  We'll talk about this in detail.
 
 ####Closing the gap with Closures
 
@@ -68,4 +68,3 @@ During this session we'll discuss the following:
 - http://www.github.com/johnnyezzell/web-technology-series - The github that contains all the handouts and sample code for this series
 - http://www.w3schools.com/js - Great site with lots of JavaScript information
 - http://www.addyosmani.com/resources/essentialjsdesignpatterns/book - Free online book that covers JavaScript Design Patterns
-- 
