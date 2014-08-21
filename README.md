@@ -25,3 +25,6 @@ In this lesson we'll discuss the basics of JavaScript in detail.  We'll also cov
 
 ### Lesson Three - jQuery Basics
 In this lesson we'll discuss the most popular JavaScript library ever made.  We'll look at why jQuery has been so successful and how we can benifit from it.  We'll create our own jQuery plugin in the process.
+
+### Lesson Four - Bootstrap
+In this lesson we'll discuss the most popular CSS framework available today.  Bootstrap gives you everything you need to very quickly put together a modern looking website.  We will converting our website from lesson 1 into a Bootstrap site.  Also, we'll take a quick look at using the {less} source for bootstrap.
