@@ -6,7 +6,7 @@ Overview
 
 Source code and documents associated with the Web Client Technologies series.
 
-These lessons are intended for intermiate web developers.  They will also serve as a refresher to advanced web developers.
+These lessons are intended for intermediate web developers.  They will also serve as a refresher to advanced web developers.
 
 You should have basic knowledge of the following technologies before taking these lessons:
 
@@ -28,3 +28,6 @@ In this lesson we'll discuss the most popular JavaScript library ever made.  We'
 
 ### Lesson Four - Bootstrap
 In this lesson we'll discuss the most popular CSS framework available today.  Bootstrap gives you everything you need to very quickly put together a modern looking website.  We will converting our website from lesson 1 into a Bootstrap site.  Also, we'll take a quick look at using the {less} source for bootstrap.
+
+### Lesson Five - Knockout.js
+In this lesson we'll discuss one of the most popular two way binding libraries available today.  We're going to add two way data binding to our web site and discuss the what two way binding brings to the table.
