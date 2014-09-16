@@ -31,3 +31,6 @@ In this lesson we'll discuss the most popular CSS framework available today.  Bo
 
 ### Lesson Five - Knockout.js
 In this lesson we'll discuss one of the most popular two way binding libraries available today.  We're going to add two way data binding to our web site and discuss the what two way binding brings to the table.
+
+### Lesson Six - AMD and RequireJS
+In this lesson we'll cover AMD. RequireJS as well as discuss ES6 modules.  We'll talk about AMD modules in detail and the benefits as well as issues that you may run into.
